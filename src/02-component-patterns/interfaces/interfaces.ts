@@ -26,3 +26,13 @@ export interface ProductCardProps {
     Title:  (Props: PropsTitle) => JSX.Element,
     Buttons:(Props: PropsBottons) => JSX.Element
 }
+
+
+export interface onChangeArgs {
+    count : number,
+    product : Product
+}
+
+export interface ProductInCart extends Product {
+    count: number
+}

@@ -23,3 +23,11 @@ span, .error-message {
 .has-error {
     border: 1px solid red;
 }
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}

@@ -1,0 +1,91 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Ingresa tu nombre",
+        "label": "First Name",
+        "value": "",
+        "validations" : [
+            {
+                "type" : "required",
+                "desciptions" : "Este campo es requerido"
+            },
+            {
+                "type" : "minLength",
+                "value" : 2,
+                "description" : "Debe de contener por lo menos 2 caracteres"
+            },
+            {
+                "type" : "maxLength",
+                "value" : 15,
+                "description" : "Debe de contener por lo menos 2 caracteres"
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Ingresa tu apellido",
+        "label": "Last Name",
+        "value": "",
+        "validations" : [
+            {
+                "type" : "required",
+                "desciptions" : "Este campo es requerido"
+            },
+            {
+                "type" : "minLength",
+                "value" : 2,
+                "description" : "Debe de contener por lo menos 2 caracteres"
+            },
+            {
+                "type" : "maxLength",
+                "value" : 15,
+                "description" : "Debe de contener por lo menos 2 caracteres"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "ejemplo@gmail.com",
+        "label": "Email",
+        "value": "",
+        "validations" : [
+            {
+                "type" : "required",
+                "desciptions" : "Este campo es requerido"
+            },
+            {
+                "type" : "email",
+                "desciptions" : "El email debe contener un formato valido"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favorite Game",
+        "value": "",
+        "options": [
+            {
+                "id" : 1,
+                "label" : "MarioBross"
+            },
+            {
+                "id" : 2,
+                "label" : "GTA"
+            },
+            {
+                "id" : 3,
+                "label" : "FIFA"
+            }
+        ],
+        "validations" : [
+            {
+                "type" : "required",
+                "desciptions" : "Este campo es requerido"
+            }
+        ]
+    }
+]
